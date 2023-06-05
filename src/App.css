@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
-    background-image: url("./Components/Assets/Home-background.jpg");
-    background-size: cover;
-    width: '100%';
-    height: '100vh';
+    
     
     
   }
@@ -66,7 +63,10 @@
       border-bottom: 3px solid black;
     }
   
-  
+    .home-image-section {
+      max-width: 600px;
+      flex: 1;
+    }
   
   .primary-heading {
     font-size: 50px;
@@ -98,11 +98,7 @@
     display:flex;
   }
 
-  .card{
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 1500px;
-  }
+  
   
   
   
@@ -140,18 +136,45 @@
     color: #1ac6ff;
     margin: 1.5em;
   }
-  
   @media (max-width: 1000px) {
     .navbar-links-container a {
       margin-right: 1rem;
       font-size: 1rem;
     }
-   
-    
+    .primary-button {
+      font-size: 1rem;
+    }
+    .home-bannerImage-container {
+      max-width: 600px;
+    }
   }
   @media (max-width: 800px) {
-    
-    
+    .nav-logo-container {
+      max-width: 140px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .navbar-menu-container {
+      display: flex;
+    }
+    .home-bannerImage-container {
+      max-width: 450px;
+    }
+    .home-banner-container,
+    .about-section-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .about-section-container {
+      flex-direction: column;
+    }
+    .home-image-section,
+    .about-section-image-container {
+      width: 100%;
+      max-width: 400px;
+    }
     .primary-heading {
       text-align: center;
       max-width: 70%;
@@ -162,5 +185,3 @@
     }
     
   }
-
-  

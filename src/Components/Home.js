@@ -6,19 +6,24 @@ import natash from '../Components/Assets/natasha.JPG'
 import banking from '../Components/Assets/mobile_banking_app.jpg'
 import food from '../Components/Assets/food.jpg'
 import greens from '../Components/Assets/green.jpg'
-
+import background from '../Components/Assets/Home-background.jpg'
 
 
 const Home = () => {
 
-  
+  const style = {backgroundImage: `url(${background})`,
+  backgroundSize: 'cover',
+  width: '100%',
+  height: '100vh'
+ 
+};
 
 
  
 
   return (
    
-    <div>
+    <div style={style}>
     <Navbar/>
     <Table className='center'>
       <Tr>
