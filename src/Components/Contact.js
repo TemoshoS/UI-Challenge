@@ -7,19 +7,12 @@ const Contact = () => {
   return (
     <div>
          <Navbar/>
-         <Table  className='contact-table'>
-          <Tr>
-            <Td className='contact-table-row'>
-            
-            </Td>
-          </Tr>
-          <Tr>
-            <Td>
-              
-            </Td>
-          </Tr>
 
-         </Table>
+         <div className='card'>
+          <p>Contact me</p>
+
+         </div>
+         
         
     </div>
   )
