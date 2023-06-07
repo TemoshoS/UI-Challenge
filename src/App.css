@@ -21,6 +21,7 @@
   .image1 {
     max-width: 100%;
     height: auto;
+    margin-left: 5em;
   }
   
   
@@ -117,18 +118,24 @@
   {
       
       transform: rotate(-90deg); 
-      font-size: 12px;
+      font-size: 11px;
       color: rgb(53, 53, 53);
-      margin: rem;
-      text-align: auto;
+      display:flex;
+      justify-content: space-between;
+      width: 250px;
+      margin-bottom: 22em;
+      
   }
   .rotate-bold
   {
       
-      transform: rotate(-90deg); 
-      font-weight: bold;
-      color: black;
-      margin: 3rem;
+    transform: rotate(-90deg);
+    display:flex;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 13px;
+    font-weight: bolder;
+    
   }
   
   

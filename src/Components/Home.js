@@ -28,8 +28,12 @@ const Home = () => {
     <Table className='center'>
       <Tr>
         <Td >
-          <p className='rotate-bold
-          '>my process  &nbsp; &nbsp;client reviews &nbsp; &nbsp; &nbsp; download cv</p>
+          <div className='rotate-bold'>
+          <p>my process  </p>
+          <p>client reviews </p>
+          <p>download cv</p>
+
+           </div>
         </Td>
       <Td>
         <div className="home-image-section">
@@ -37,7 +41,10 @@ const Home = () => {
         </div>
         </Td>
         <Td >
-          <p className='rotate'><button className='blueline'></button>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;missied advice my it no sister</p>
+        <div className='rotate'>
+         <p><button className='blueline'></button></p>
+         <p>missied advice my it no sister</p>
+         </div>
         </Td>
 
         <Td>
