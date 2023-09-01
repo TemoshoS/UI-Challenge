@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../Components/Assets/Logo.png'
+import Logo from '../Assets/Logo.png'
 import { BsTwitter } from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import {SiBlogger} from 'react-icons/si'

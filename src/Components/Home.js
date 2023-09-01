@@ -2,11 +2,11 @@ import React from 'react'
 import { Table,  Tr,  Td } from 'react-super-responsive-table';
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 import Navbar from './Navbar'
-import natash from '../Components/Assets/natasha.JPG'
-import banking from '../Components/Assets/mobile_banking_app.jpg'
-import food from '../Components/Assets/food.jpg'
-import greens from '../Components/Assets/green.jpg'
-import background from '../Components/Assets/Home-background.jpg'
+import natash from '../Assets/natasha.JPG'
+import banking from '../Assets/mobile_banking_app.jpg'
+import food from '../Assets/food.jpg'
+import greens from '../Assets/green.jpg'
+import background from '../Assets/Home-background.jpg'
 
 
 const Home = () => {
